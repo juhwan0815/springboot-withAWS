@@ -15,9 +15,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r juhwan-springboot-webservice *
+  - zip -r springboot-withAWS *
   - mkdir -p deploy
-  - mv juhwan-springboot2-webservice.zip deploy/juhwan-springboot-webservice.zip
+  - mv springboot-withAWS.zip deploy/springboot-withAWS.zip
 
 deploy:
   - provider: s3
