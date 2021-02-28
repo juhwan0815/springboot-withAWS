@@ -5,8 +5,9 @@ plugins {
 }
 
 group = 'juhwan.study'
-version = '1.0.1-SNAPSHOT'
+version = '1.0.1-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = '1.8'
+
 
 configurations {
 	compileOnly {
