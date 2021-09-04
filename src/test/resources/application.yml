@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    include: oauth
   h2:
     console:
       enabled: true
@@ -10,3 +8,11 @@ spring:
       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   session:
     store-type: jdbc
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope: profile,email
