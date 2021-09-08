@@ -1,5 +1,6 @@
 HELP.md
 /src/main/resources/application-oauth.yml
+/src/main/resources/application-real-db.yml
 .idea
 .gradle
 build/
