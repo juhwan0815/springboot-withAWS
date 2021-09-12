@@ -15,3 +15,5 @@ function switch_proxy() {
     sudo service nginx reload
 }
 
+
+
